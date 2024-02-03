@@ -9,7 +9,7 @@ ua_ig = "Mozilla/5.0 (Linux; Android 6.0; E5633 Build/30.2.B.1.21; wv) AppleWebK
 def clear():
   os.system("clear")
   
-def bot(header, token):
+def bot(cokis, token):
   with ses as req:
     try:
       headers = {
